@@ -1,4 +1,4 @@
-#Superstore Sales Dashboard
+# Superstore Sales Dashboard
 
 An end-to-end Business Intelligence project built with MySQL and Power BI to transform raw retail sales data into an interactive dashboard for business decision-making.
 
@@ -6,7 +6,7 @@ The project covers the complete BI workflow, from data cleaning and dimensional 
 
 ## About the Project
 
-Retail companies generate thousands of transactions every day, making it difficult to monitor business performance through spreadsheets alone.
+Retail companies generate thousands of sales every day, making it difficult to monitor business performance through spreadsheets alone.
 
 This project aims to turn raw sales data into meaningful insights by building an interactive dashboard that allows users to explore sales performance, product profitability, and customer behaviour from different perspectives.
 
@@ -53,24 +53,8 @@ Data includes:
 
 ## Project Workflow
 
-Raw Dataset
-      │
-      ▼
-    MySQL
-(Data Cleaning & ETL)
-      │
-      ▼
-Star Schema Design
-      │
-      ▼
-    Power BI
-(Power Query + DAX)
-      │
-      ▼
-Interactive Dashboard
-      │
-      ▼
-Business Insights
+<img width="439" height="482" alt="image" src="https://github.com/user-attachments/assets/c42b0033-93ad-4781-8f38-56bc2b549335" />
+
 
 ## Data Preparation
 
@@ -78,20 +62,20 @@ The dataset was first imported into MySQL Workbench for the initial data prepara
 
 Some of the work included:
 
-Cleaning and organizing the raw data
-Standardizing data types
-Creating a Star Schema
-Building dimension and fact tables
-Generating surrogate keys for Dim Products, Dim Locations, and Fact Orders
+- Cleaning and organizing the raw data
+- Standardizing data types
+- Creating a Star Schema
+- Building dimension and fact tables
+- Generating surrogate keys for Dim Products, Dim Locations, and Fact Orders
 
 Once the data model was ready, it was imported into Power BI for further transformation using Power Query.
 
 Additional transformations included:
 
-Creating a Date dimension
-Formatting data types
-Renaming columns
-Preparing the model for DAX calculations
+- Creating a Date dimension
+- Formatting data types
+- Renaming columns
+- Preparing the model for DAX calculations
 
 ## Exploratory Data Analysis
 
@@ -100,16 +84,20 @@ Before building the dashboard, I explored the dataset to better understand its o
 The initial analysis focused on:
 
 - Sales distribution across states
-  <img width="764" height="423" alt="image" src="https://github.com/user-attachments/assets/c3e29941-91a6-4f4e-9825-1cadf0214a72" />
+  
+  <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/c3e29941-91a6-4f4e-9825-1cadf0214a72" />
 
 - Monthly sales and profit trends
+  
   <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/ad8429de-41fa-429c-921e-bfd0f099cf4b" />
 
 - Product category sold
-  <img width="698" height="414" alt="image" src="https://github.com/user-attachments/assets/5c0b211a-fef1-4edb-b392-06327ab6957d" />
+
+  <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/5c0b211a-fef1-4edb-b392-06327ab6957d" />
 
 - Customer segment distribution
-  <img width="515" height="392" alt="image" src="https://github.com/user-attachments/assets/60627b81-3ab5-47e6-9c3d-5555324849ce" />
+  
+  <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/60627b81-3ab5-47e6-9c3d-5555324849ce" />
 
 These findings helped shape the design of the final dashboard and determine the most relevant KPIs for business users.
 
@@ -126,12 +114,15 @@ Tables:
 
 <img width="609" height="437" alt="image" src="https://github.com/user-attachments/assets/a4292106-ac04-48af-a713-beefa4579d35" />
 
+Relationships: 
+
+<img width="796" height="277" alt="image" src="https://github.com/user-attachments/assets/45d6e506-57d3-48fd-99bc-b8b0dcf700a5" />
 
 ## Dashboard
 
 The report is divided into three pages, each focusing on a different business area.
 
-### 1.Executive Overview
+### 1. Executive Overview
 
 <img width="766" height="432" alt="image" src="https://github.com/user-attachments/assets/d5104b9e-3881-4c84-bc25-f5992baac584" />
 
@@ -139,18 +130,18 @@ The first page provides an overall view of business performance through key KPIs
 
 Highlights include:
 
-Total Sales
-Total Orders
-Total Profit
-Sales by State
-Orders by Segment
-Monthly Profit Trend
-Sales vs Orders Trend
-Product Quantity Sold
+- Total Sales
+- Total Orders
+- Total Profit
+- Sales by State
+- Orders by Segment
+- Monthly Profit Trend
+- Sales vs Orders Trend
+- Product Quantity Sold
 
 Users can also interact with the report using Year and Country slicers, as well as drill through by Category, Sub-Category, Quarter, and Month.
 
-### 2.Product Performance
+### 2. Product Performance
 
 <img width="765" height="429" alt="image" src="https://github.com/user-attachments/assets/b3f08b80-e737-4753-97c7-efa7a4cdc919" />
 
@@ -158,58 +149,54 @@ This page focuses on product profitability.
 
 It allows users to quickly identify:
 
-Top-performing products
-Lowest-performing products
-Most profitable sub-categories
-Running total sales
-Year-over-Year product growth
-Relationship between sales and profit
+- Top-performing products
+- Lowest-performing products
+- Most profitable sub-categories
+- Running total sales
+- Year-over-Year product growth
+- Relationship between sales and profit
 
-### 3.Customer Analysis
+### 3. Customer Analysis
 
-<img width="765" height="429" alt="image" src="https://github.com/user-attachments/assets/ca4ce87c-f100-4b2d-864e-958a088d4463" />
+<img width="766" height="430" alt="image" src="https://github.com/user-attachments/assets/7dfe38df-cf02-41f4-99e0-5dd10c82d90c" />
 
 The customer page helps understand customer behaviour and purchasing patterns.
 
 It includes:
 
-Customer segmentation
-Repeat customer analysis
-Average order value
-Top customers by sales
-Sales vs Profit by customer
+- Customer segmentation
+- Repeat customer analysis
+- Average order value
+- Top customers by sales
+- Sales vs Profit by customer
 
 ## DAX Measures
 
 Some of the key measures created in this project include:
 
-YoY Sales
-YoY Orders
-YoY Profit
-Last Year Sales
-Last Year Orders
-Last Year Profit
-Running Total Sales
-Repeat Customers
+- YoY Sales
+- YoY Orders
+- YoY Profit
+- Last Year Sales
+- Last Year Orders
+- Last Year Profit
+- Running Total Sales
+- Repeat Customers
 
 These measures make it possible to compare historical performance, track cumulative sales, and analyse customer loyalty.
 
 ## Key Insights
 
-Some interesting findings from the dashboard include:
-
-Sales increased compared to the previous year, while profit declined, indicating profit margin pressure.
-California generated the highest sales among all states.
-Office Supplies recorded the highest quantity sold.
-A few products generated strong sales but negative profit, indicating potential pricing or discount issues.
-The Consumer segment contributed the largest share of customers and sales.
-Repeat customers represented an important source of revenue, highlighting the value of customer retention.
+1. Sales increased compared to the previous year, while profit declined, indicating profit margin pressure.
+2. California generated the highest sales among all states.
+3. Office Supplies recorded the highest quantity sold.
+4. A few products generated strong sales but negative profit, indicating potential pricing or discount issues.
+5. The Consumer segment contributed the largest share of customers and sales.
+6. Repeat customers represented an important source of revenue, highlighting the value of customer retention.
 
 ## Recommendations
 
-Based on the analysis, several opportunities could be explored:
-
-Review pricing strategies for products with negative profit.
-Increase focus on high-margin products and sub-categories.
-Strengthen customer loyalty initiatives to encourage repeat purchases.
-Continue investing in high-performing regions while investigating the causes of weaker-performing markets.
+1. Review pricing strategies for products with negative profit.
+2. Increase focus on high-margin products and sub-categories.
+3. Strengthen customer loyalty initiatives to encourage repeat purchases.
+4. Continue investing in high-performing regions while investigating the causes of weaker-performing markets.
