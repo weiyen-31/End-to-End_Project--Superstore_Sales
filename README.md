@@ -16,17 +16,19 @@ Furthermore, this project follows a complete end-to-end BI process, including da
 
 This dashboard was designed to answer questions such as:
 
-How are sales and profit performing compared to last year?
-Which products generate the highest (and lowest) profit?
-Which customer segment contributes the most revenue?
-Which states perform best in terms of sales?
-How do sales change over time?
-Who are the most valuable customers?
-Which product categories sell the most?
+1. How are sales and profit performing compared to last year?
+2. Which products generate the highest (and lowest) profit?
+3. Which customer segment contributes the most revenue?
+4. Which states perform best in terms of sales?
+5. How do sales change over time?
+6. Who are the most valuable customers?
+7. Which product categories sell the most?
 
 ## Dataset
 Source: Kaggle Superstore Dataset
+
 Industry: Retail
+
 Data includes:
 - Row ID	
 - Order ID	
