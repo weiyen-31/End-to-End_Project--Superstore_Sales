@@ -60,7 +60,7 @@ Data includes:
 
 ## Data Preparation
 
-The dataset was first imported into MySQL Workbench for the initial data preparation purppose before building the dashboard in Power BI.
+The dataset was first imported into MySQL Workbench for the initial data preparation purpose before building the dashboard in Power BI.
 
 Some of the work included:
 
