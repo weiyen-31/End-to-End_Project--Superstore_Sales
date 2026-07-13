@@ -1,16 +1,16 @@
 # Superstore Sales Dashboard
 
-An end-to-end Business Intelligence project built with MySQL and Power BI to transform raw retail sales data into an interactive dashboard for business decision-making.
+An end-to-end project built with MySQL and Power BI to transform raw retail sales data into an interactive dashboard for business decision-making.
 
-The project covers the complete BI workflow, from data cleaning and dimensional modelling to dashboard development and business insights.
+This project covers the complete BI workflow from data cleaning and dimensional modelling to dashboard development and business insights.
 
 ## About the Project
 
-Retail companies generate thousands of sales across different products, customers, and locations every day. Then, it becomes increasingly difficult to monitor business performance using spreadsheets alone as the amount of data grows.
+Retail companies generate thousands of sales across different products, customers and locations every day. Then, it becomes increasingly difficult to monitor business performance using spreadsheets alone as the amount of data grows.
 
-In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard, enabling users to analyse sales performance, product profitability, and customer behaviour from different perspectives.
+In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard for users to analyse sales performance, product profitability and customer behaviour from different perspectives.
 
-Furthermore, this project follows a complete end-to-end BI process, including data preparation, dimensional modelling, DAX development, and dashboard design.
+Furthermore, this project follows a complete end-to-end BI process, including data preparation, dimensional modelling, DAX development and dashboard design.
 
 ## Business Questions
 
@@ -189,16 +189,16 @@ Some of the key measures created in this project include:
 - Running Total Sales
 - Repeat Customers
 
-These measures make it possible to compare historical performance, track cumulative sales, and analyse customer loyalty.
+These measures make it possible to compare historical performance, track cumulative sales and analyse customer loyalty.
 
 ## Key Insights
 
-1. Sales increased compared to the previous year, while profit declined, indicating profit margin pressure.
+1. Sales increased compared to the previous year, while profit declined, indicates profit margin pressure.
 2. California generated the highest sales among all states.
 3. Office Supplies recorded the highest quantity sold.
-4. A few products generated strong sales but negative profit, indicating potential pricing or discount issues.
+4. A few products generated strong sales but negative profit, indicates potential pricing or discount issues.
 5. The Consumer segment contributed the largest share of customers and sales.
-6. Repeat customers represented an important source of revenue, highlighting the value of customer retention.
+6. Repeat customers represented an important source of revenue highlighting the value of customer retention.
 
 ## Recommendations
 
