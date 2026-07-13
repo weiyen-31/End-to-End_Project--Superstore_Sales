@@ -6,9 +6,9 @@ The project covers the complete BI workflow, from data cleaning and dimensional 
 
 ## About the Project
 
-Retail companies generate thousands of sales every day, making it difficult to monitor business performance through spreadsheets alone.
+Retail companies generate thousands of sales every day across different products, customers, and locations. As the amount of data grows, it becomes increasingly difficult to monitor business performance using spreadsheets alone.
 
-This project aims to turn raw sales data into meaningful insights by building an interactive dashboard that allows users to explore sales performance, product profitability, and customer behaviour from different perspectives.
+In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard, enabling users to analyse sales performance, product profitability, and customer behaviour from different perspectives.
 
 Furthermore, this project follows a complete end-to-end BI process, including data preparation, dimensional modelling, DAX development, and dashboard design.
 
@@ -66,9 +66,9 @@ Some of the work included:
 
 - Cleaning and organizing the raw data
 - Standardizing data types
-- Creating a Star Schema
-- Building dimension and fact tables
-- Generating surrogate keys for Dim Products, Dim Locations, and Fact Orders
+- Designed and implemented a Star Schema
+- Created dimension and fact tables
+- Generated surrogate keys for Dim Products, Dim Locations, and Fact Orders
 
 Once the data model was ready, it was imported into Power BI for further transformation using Power Query.
 
@@ -88,6 +88,8 @@ The initial analysis focused on:
 - Sales distribution across states
   
   <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/c3e29941-91a6-4f4e-9825-1cadf0214a72" />
+  
+  Helped identify high-performing states before designing the regional sales visual.
 
 - Monthly sales and profit trends
   
@@ -97,6 +99,8 @@ The initial analysis focused on:
 
   <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/5c0b211a-fef1-4edb-b392-06327ab6957d" />
 
+  Revealed seasonal sales patterns and fluctuations in profitability.
+
 - Customer segment distribution
   
   <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/60627b81-3ab5-47e6-9c3d-5555324849ce" />
@@ -105,14 +109,10 @@ These findings helped shape the design of the final dashboard and determine the 
 
 ## Data Model
 
-The final model follows a simple Star Schema, making it easier to write DAX measures and improve report performance.
+The data model follows a Star Schema consisting of:
 
-Tables:
-- Fact Orders
-- Dim Customers
-- Dim Products
-- Dim Locations
-- Dim Date
+- 1 Fact Table
+- 4 Dimension Tables
 
 <img width="609" height="437" alt="image" src="https://github.com/user-attachments/assets/a4292106-ac04-48af-a713-beefa4579d35" />
 
@@ -147,7 +147,7 @@ Users can also interact with the report using Year and Country slicers, as well 
 
 <img width="765" height="429" alt="image" src="https://github.com/user-attachments/assets/b3f08b80-e737-4753-97c7-efa7a4cdc919" />
 
-This page focuses on product profitability.
+This page designed to evaluate product profitability and identify top and bottom performing products.
 
 It allows users to quickly identify:
 
@@ -202,3 +202,30 @@ These measures make it possible to compare historical performance, track cumulat
 2. Increase focus on high-margin products and sub-categories.
 3. Strengthen customer loyalty initiatives to encourage repeat purchases.
 4. Continue investing in high-performing regions while investigating the causes of weaker-performing markets.
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| MySQL Workbench | Data Cleaning, ETL & Data Modeling |
+| Power BI | Dashboard Development |
+| Power Query | Data Transformation |
+| DAX | Business Calculations |
+| Star Schema | Data Warehouse Modeling |
+| GitHub | Version Control & Portfolio |
+
+## Skills Demonstrated
+
+- SQL
+- ETL
+- Data Cleaning
+- Data Modeling
+- Star Schema Design
+- Surrogate Key Implementation
+- Power Query
+- DAX
+- Power BI Dashboard Development
+- Business Intelligence
+- Data Visualization
+- Business Analysis
+
