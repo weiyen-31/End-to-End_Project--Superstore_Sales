@@ -95,15 +95,19 @@ The initial analysis focused on:
   
   <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/ad8429de-41fa-429c-921e-bfd0f099cf4b" />
 
+  Revealed seasonal sales patterns and fluctuations in profitability.
+
 - Product category sold
 
   <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/5c0b211a-fef1-4edb-b392-06327ab6957d" />
 
-  Revealed seasonal sales patterns and fluctuations in profitability.
+  Highlighted which product categories contributed the highest sales volume, helping prioritize category performance analysis.
 
 - Customer segment distribution
   
   <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/60627b81-3ab5-47e6-9c3d-5555324849ce" />
+
+  Helped identify the dominant customer segment and understand the overall customer composition.
 
 These findings helped shape the design of the final dashboard and determine the most relevant KPIs for business users.
 
@@ -202,6 +206,30 @@ These measures make it possible to compare historical performance, track cumulat
 2. Increase focus on high-margin products and sub-categories.
 3. Strengthen customer loyalty initiatives to encourage repeat purchases.
 4. Continue investing in high-performing regions while investigating the causes of weaker-performing markets.
+
+## Repository Structure
+
+```
+Superstore-Sales-Dashboard
+│
+├── Dataset
+│
+├── MySQL
+│   ├── Data Cleaning.sql
+│   ├── ETL.sql
+│   ├── Data Model.sql
+│
+├── Power BI
+│   └── Superstore Sales Dashboard.pbix
+│
+├── Images
+│   ├── Executive Dashboard.png
+│   ├── Product Dashboard.png
+│   ├── Customer Dashboard.png
+│   ├── Star Schema.png
+│
+└── README.md
+```
 
 ## Tools & Technologies
 
