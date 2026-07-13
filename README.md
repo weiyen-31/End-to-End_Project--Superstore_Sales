@@ -6,7 +6,7 @@ The project covers the complete BI workflow, from data cleaning and dimensional 
 
 ## About the Project
 
-Retail companies generate thousands of sales every day across different products, customers, and locations. As the amount of data grows, it becomes increasingly difficult to monitor business performance using spreadsheets alone.
+Retail companies generate thousands of sales across different products, customers, and locations every day. Then, it becomes increasingly difficult to monitor business performance using spreadsheets alone as the amount of data grows.
 
 In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard, enabling users to analyse sales performance, product profitability, and customer behaviour from different perspectives.
 
