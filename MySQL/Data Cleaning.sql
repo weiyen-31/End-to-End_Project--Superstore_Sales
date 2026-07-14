@@ -7,9 +7,10 @@ SELECT *
 FROM (
 	SELECT *,
 		   ROW_NUMBER() OVER(PARTITION BY Order_ID, Product_ID
-                           ORDER BY CAST(Row_ID AS UNSIGNED)) AS row_num
+		   ORDER BY CAST(Row_ID AS UNSIGNED)) AS row_num
 	FROM raw_data_sales) t
 WHERE row_num = 1;
+
 
 ## Data Standardation and Consistency, Remove Unwanted Spaces and Handle Missing Value
 
