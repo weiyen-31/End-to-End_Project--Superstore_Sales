@@ -33,7 +33,7 @@ SELECT CAST(Row_ID AS UNSIGNED) AS Row_ID,
             CAST( STR_TO_DATE (
                 NULLIF(TRIM(Order_Date),''),
             '%d/%m/%Y  %H:%i') AS DATE)
-          ELSE NULL、
+          ELSE NULL
        END AS Order_Date,
        STR_TO_DATE(`Ship_Date`, '%d/%m/%Y') AS Ship_Date, 
        NULLIF (Ship_Mode, '') AS Ship_Mode, 
