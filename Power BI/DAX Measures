@@ -1,1 +1,57 @@
+1. YoY Sales
+  </> DAX
+  YoY Sales =   
+  VAR LYS = 
+      CALCULATE([Total Sales],
+                SAMEPERIODLASTYEAR('Dim Date'[Date])
+               )
+  RETURN
+  DIVIDE(
+      ([Total Sales]-LYS),LYS
+       )
 
+2. YoY Orders
+  </> DAX
+  YoY Orders =   
+  VAR LYO = 
+      CALCULATE([Total Orders],
+                SAMEPERIODLASTYEAR('Dim Date'[Date])
+               )
+  RETURN
+  DIVIDE(
+      ([Total Orders]-LYO),LYO
+       )
+
+3. YoY Profit
+  </> DAX
+  YoY Profit = 
+  VAR LPS = 
+      CALCULATE(
+          [Total Profit],
+          SAMEPERIODLASTYEAR('Dim Date'[Date])
+       )
+  RETURN
+  DIVIDE(
+      ([Total Profit]-LPS),LPS
+    )
+
+4. Running Total Sales
+  </> DAX
+  Running Total Sales = 
+    TOTALYTD(
+            [Total Sales],
+            'Dim Date'[Date]
+            )
+
+5. Repeat Customer
+  </> DAX
+  Repeat Customers = 
+    COUNTROWS(
+        FILTER(
+            VALUES('Dim Customers'[Customer ID]),
+            CALCULATE(
+                (DISTINCTCOUNT('Fact Orders'[Order ID])
+                ) >= 2
+            )
+        )
+    )
