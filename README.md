@@ -213,6 +213,8 @@ These measures make it possible to compare historical performance, track cumulat
 Superstore-Sales-Dashboard
 │
 ├── Dataset
+|    ├── Raw Data.csv
+│    ├── Cleaned Data.csv
 │
 ├── MySQL
 │   ├── Data Cleaning.sql
