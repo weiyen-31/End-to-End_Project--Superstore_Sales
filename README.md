@@ -17,7 +17,7 @@ Furthermore, this project follows a complete end-to-end BI process, including da
 This dashboard was designed to answer questions such as:
 
 1. How are sales and profit performing compared to last year?
-2. Which products generate the highest (and lowest) profit?
+2. Which products generate the highest and lowest profit?
 3. Which customer segment contributes the most revenue?
 4. Which states perform best in terms of sales?
 5. How do sales change over time?
