@@ -8,7 +8,7 @@ This project covers the complete BI workflow from data cleaning and dimensional 
 
 Retail companies generate thousands of sales across different products, customers and locations every day. Then, it becomes increasingly difficult to monitor business performance using spreadsheets alone as the amount of data grows.
 
-In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard to analyse sales performance, product profitability and customer behaviour for United States and Canada from year 2023 to 2026.
+In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard to analyse sales performance, product profitability and customer behaviour within United States and Canada between 2023 and 2026.
 
 Furthermore, this project follows a complete end-to-end BI process, including data preparation, dimensional modelling, DAX development and dashboard design.
 
