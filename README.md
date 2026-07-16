@@ -194,7 +194,7 @@ These measures make it possible to compare historical performance, track cumulat
 
 ## Key Insights
 
-1. Sales increased compared to the previous year, while profit declined, indicates profit margin pressure.
+1. Sales increased compared to the previous year while profit declined, indicates profit margin pressure.
 2. California generated the highest sales among all states.
 3. Office Supplies recorded the highest quantity sold.
 4. A few products generated strong sales but negative profit, indicates potential pricing or discount issues.
