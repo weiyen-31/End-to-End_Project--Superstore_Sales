@@ -8,7 +8,7 @@ This project covers the complete BI workflow from data cleaning and dimensional 
 
 Retail companies generate thousands of sales across different products, customers and locations every day. Then, it becomes increasingly difficult to monitor business performance using spreadsheets alone as the amount of data grows.
 
-In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard for users to analyse sales performance, product profitability and customer behaviour for United States and Canada from year 2023 to 2026.
+In this project, I built an end-to-end Business Intelligence solution that transforms raw sales data into an interactive Power BI dashboard to analyse sales performance, product profitability and customer behaviour for United States and Canada from year 2023 to 2026.
 
 Furthermore, this project follows a complete end-to-end BI process, including data preparation, dimensional modelling, DAX development and dashboard design.
 
@@ -81,7 +81,7 @@ Additional transformations included:
 
 ## Exploratory Data Analysis
 
-Before building the dashboard, I explored the dataset to better understand its overall structure and identify key business trends.
+Before building the dashboard, I explored the dataset to better understand its overall structure and identify key business trends from 2023 to 2025.
 
 The initial analysis focused on:
 
@@ -91,9 +91,9 @@ The initial analysis focused on:
   
   Helped identify high-performing states before designing the regional sales visual.
 
-- Monthly sales and profit trends
+- Yearly sales and profit trends
   
-  <img width="766" height="415" alt="image" src="https://github.com/user-attachments/assets/ad8429de-41fa-429c-921e-bfd0f099cf4b" />
+  <img width="894" height="501" alt="image" src="https://github.com/user-attachments/assets/b0331da5-13a3-496e-b007-abb1942e8848" />
 
   Revealed seasonal sales patterns and fluctuations in profitability.
 
@@ -126,7 +126,8 @@ Relationships:
 
 ## Dashboard
 
-The report is divided into three pages, each focusing on a different business area.
+The report is divided into three pages, each page focusing on a different business area.
+All dashboard screenshots are filtered to 2025 for consistency and presentation purposes. The Power BI report supports interactive analysis from 2023 to 2026.
 
 ### 1. Executive Overview
 
@@ -145,7 +146,7 @@ Highlights include:
 - Sales vs Orders Trend
 - Product Quantity Sold
 
-Users can also interact with the report using Year and Country slicers, as well as drill through by Category, Sub-Category, Quarter, and Month.
+Users can also interact with the report using Year and Country slicers, as well as drill through by Category, Sub-Category, Year, Quarter and Month.
 
 ### 2. Product Performance
 
